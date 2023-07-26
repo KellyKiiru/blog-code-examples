@@ -1,0 +1,7 @@
+version: '1.0'
+services: 
+  rtmp:
+    build: ./rtmp
+    ports: 
+      - '1935:1935'
+    container-name: rtmp_server
